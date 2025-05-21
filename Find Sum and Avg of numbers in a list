@@ -1,0 +1,18 @@
+l1 = []
+while (1):
+    n1 = int(input("enter number: "))
+    if n1 == 00:
+        break;
+    else:
+        l1.append(n1)
+print("entered numbers are: ", l1)
+ 
+sum = 0   
+for i in l1:
+    sum += i
+    
+x = len(l1)
+avg = sum/x
+
+print("sum of the numbers is: ", sum)
+print("average of the numbers is :", avg)
