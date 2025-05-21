@@ -1,0 +1,9 @@
+s1 = input("enter a string :")
+
+s2 = s1.split(" ")
+
+l = len(s2)-1
+
+while(l>=0):
+    print(s2[l], end=" ")
+    l -= 1
